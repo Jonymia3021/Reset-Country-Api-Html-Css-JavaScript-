@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f3f3f3;
+}
+
+.input-group {
+    padding: 50px;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.countries a {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+.countries a:hover .card {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card {
+    width: 200px;
+    height: 244px;
+    margin: 15px;
+    background-color: #f7f6f6;
+}
+
+.card img{
+    width: 200px;
+    height: 90px;
+}
+.card h3{
+    color: #333333;
+    margin: 10px auto;
+}
+.card p {
+    color: #333333ad;
+    margin: 2px 0px 0px 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#ditails {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#ditails img{
+    margin: 10px auto;
+}
+
+#ditails h4{
+    margin-top: 10px;
+}
